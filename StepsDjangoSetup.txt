@@ -1,0 +1,9 @@
+C:\Python35\python -m venv myvenv
+myvenv\Scripts\activate
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+pip install --upgrade pip
+pip install django           ~=1.9.0
+pip install psycopg2
+
+python manage.py runserver
